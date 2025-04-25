@@ -111,7 +111,7 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT Message, WPARAM wParam, LPARAM lParam) 
 					PostMessage(hwnd, WM_CLOSE, 0, 0);
 					break;
 				case CM_ABOUT:
-					MessageBox (NULL, "该文件编辑器仅适用于Windows\n该程序基于Win32API研究\n开发者：（胡）正阳\n为程序捐款：" , "关于...", 0);
+					MessageBox (NULL, "该文件编辑器仅适用于Windows\n该程序基于Win32API研究\n开发者：（胡）正阳\n为程序捐款：https://world.xiaomawang.com/community/main/compose/vulq666J" , "关于...", 0);
 					break;
 			}
 			break;
